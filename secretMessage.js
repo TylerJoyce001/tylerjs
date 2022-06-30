@@ -12,4 +12,4 @@ secretMessage.splice(6, 10, 'know'); // remove index 6 - 10
 console.log(secretMessage);
 console.log(secretMessage.join()); // Printing as 
 
-// Secret Message Using arrays
+// Secret Message Using arrays.

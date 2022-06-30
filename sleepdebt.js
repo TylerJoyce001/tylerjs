@@ -42,3 +42,23 @@ const calculateSleepDebts = () => {
 };
 
 calculateSleepDebts();
+
+
+/*
+ //if/else version
+const getSleepHours = hours => {
+  let totalSleepHours = hours;
+  if (totalSleepHours === 56) {
+    return `The user got the perfect amount of sleep, ${totalSleepHours} hours.`;
+  } else if (totalSleepHours !== 56) {
+    if (totalSleepHours > 56) {
+      return `The user got more sleep than needed, ${totalSleepHours} hours.`
+    }
+  } if (totalSleepHours < 56) {
+      return `The use should get some rest, only ${totalSleepHours} hours.`
+  }
+};
+
+console.log(getSleepHours(20));
+
+*/
